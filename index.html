@@ -9,8 +9,117 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+    <link rel="stylesheet" href="inicial.css" type="text/css">
+
 </head>
 <body>
-        <h2>site Wikigames</h2>
+
+    <header>
+        <a href="#" class="logo">Wikigames</a>
+        <nav class="navbar">
+             <a href="index.html">Home</a>
+             <a href="#games">Games</a>
+             <a href="#history">História</a>
+             <a href="#adventure">Aventura</a>
+             <a href="#online">Online</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide">
+                    <div class="box " style="background: url(imgs/apresentacao-horizon-zero-dawn.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>Horizon Zero Dawn</h3>
+                            <p>
+                                Desenvolvido Por: Guerrilla Games<br>
+                                Data de lançamento: 28 de fevereiro de 2017
+                            </p>
+                            <a href="#" class="btn">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="box second" style="background: url(imgs/apresentacao-days-gone.jpeg) no-repeat;">
+                        <div class="content">
+                            <h3>Days Gone</h3>
+                            <p>
+                                Desenvolvido por: Bend Studio<br>
+                                Data de lançamento: 26 de abril de 2019
+                            </p>
+                            <a href="days-gone/days-gone.html" class="btn">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="box " style="background: url(imgs/apresentacao-the-last-of-us-i.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>The Last Of Us</h3>
+                             <p>
+                                Desenvolvido por: Naughty Dog<br>
+                                Data de lançamento: 14 de junho de 2013
+                            </p>
+                            <a href="#" class="btn">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="box second" style="background: url(imgs/apresentacao-red-dead-redemption-ii.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>Red Dead Redemption 2</h3>
+                            <p>
+                                Desenvolvido por: Rockstar Games<br>
+                                Data de lançamento: 26 de outubro de 2018
+                            </p>
+                            <a href="#" class="btn">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="box " style="background: url(imgs/apresentacao-clash-of-clans.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>Clash Of Clans</h3>
+                            <p>
+                                Desenvolvido por: Supercell<br>
+                                Data de lançamento: 2 de agosto de 2012 
+                            </p>
+                            <a href="coc.html" class="btn">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="box second" style="background: url(imgs/apresentacao-star-wars-fallen.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>Star Wars Jedi: Fallen Order</h3>
+                            <p>
+                                Desenvolvido por: Respawn Entertainment<br>
+                                Data de lançamento: 10 de novembro de 2019 
+                            </p>
+                            <a href="#" class="btn">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer data-deferred="1"></script> 
+    <script src="inicial.js" defer data-deferred="1"></script>
+
 </body>
 </html>
