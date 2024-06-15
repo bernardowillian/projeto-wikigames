@@ -153,6 +153,65 @@ header .icons #menu-bars{
     font-size: 1.5rem;
 }
 
+.video-container{
+    padding: 2rem 7rem;
+}
+
+.title{
+    margin-top: 2rem;
+    color: #A400EB;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.video-container video{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.requirements-table{ 
+    margin: 0 7rem;
+}
+
+.table {
+    width: 100%;
+    margin-right: 7rem;
+    color: #fff;
+    font-size: 1.2rem;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+.table th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #fff;
+}
+
+th {   
+    background-color: #555; 
+}
+
+.screenshots{
+    margin-top: 2rem;
+}
+
+.screenshots-content{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,auto));
+    gap:10px;
+    justify-content:center;
+    margin: auto;
+    width: 100%;
+}
+
+.screenshots-content img{
+    width: 100%;
+    height:219.94px;
+    object-fit: cover;
+    margin-top: 1.6rem;
+}
+
 .footer{
     display: flex;
     justify-content: space-between;
