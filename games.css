@@ -207,7 +207,7 @@ th {
 
 .screenshots-content img{
     width: 100%;
-    height:219.94px;
+    height: 180px; /*vou mudar aqui pra testar*/
     object-fit: cover;
     margin-top: 1.6rem;
 }
